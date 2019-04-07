@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KP.Ldap", "KP.Ldap\KP.Ldap.csproj", "{09BFCD4C-3CB3-460A-B6F0-052494B6391E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kp.Ldap.Test", "Kp.Ldap.Test\Kp.Ldap.Test.csproj", "{4C975322-18E7-4C6E-B233-688C340DDFAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ldap", "Ldap", "{6B6A91CD-CCB7-4F4D-B556-A124E49A7850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BFCD4C-3CB3-460A-B6F0-052494B6391E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BFCD4C-3CB3-460A-B6F0-052494B6391E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BFCD4C-3CB3-460A-B6F0-052494B6391E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BFCD4C-3CB3-460A-B6F0-052494B6391E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C975322-18E7-4C6E-B233-688C340DDFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C975322-18E7-4C6E-B233-688C340DDFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C975322-18E7-4C6E-B233-688C340DDFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C975322-18E7-4C6E-B233-688C340DDFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09BFCD4C-3CB3-460A-B6F0-052494B6391E} = {6B6A91CD-CCB7-4F4D-B556-A124E49A7850}
+		{4C975322-18E7-4C6E-B233-688C340DDFAF} = {6B6A91CD-CCB7-4F4D-B556-A124E49A7850}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B308799B-DB88-41F8-A1FC-DFEFD7D0B854}
+	EndGlobalSection
+EndGlobal
